@@ -1,0 +1,71 @@
+/* Fundo com a imagem */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('1.png') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+/* Sobreposição escura para legibilidade */
+.overlay {
+  background-color: rgba(0, 60, 30, 0.6); /* Verde escuro translúcido */
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+/* Título principal */
+h1 {
+  font-size: 3em;
+  color: #fff8e7; /* Bege claro */
+  margin-bottom: 0.2em;
+}
+
+/* Subtítulo do ano */
+h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+/* Texto de apoio */
+p {
+  font-size: 1.2em;
+  color: #e6e1da;
+  margin-bottom: 40px;
+}
+
+/* Botões amarelos */
+.btn {
+  background-color: #ffd700; /* Amarelo ouro */
+  color: #333;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #e6c200;
+}
+
+/* Rodapé */
+.footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #c3f5d3;
+}
+
+.footer a {
+  color: #00ffcc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
