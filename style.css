@@ -1,4 +1,4 @@
-/* style.css - Expo Reserva 2025 com tema de cavalo e pista de laço */
+/* style.css - Convite com fundo de cavalo */
 
 * {
   margin: 0;
@@ -8,20 +8,130 @@
 
 body {
   font-family: 'Merriweather', serif;
-  background: linear-gradient(to bottom, #fdf5e6, #f4e4c1); /* areia/pó de pista */
-  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* textura de madeira rústica (pista/laço) */
-  color: #3b2f2f;
+  background: url('WhatsApp Image 2025-06-15 at 11.19.29.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff8dc;
+  text-shadow: 1px 1px 4px #000;
   line-height: 1.6;
 }
 
 header {
-  background: linear-gradient(90deg, #8b5a2b, #a0522d); /* marrom e sela de cavalo */
-  color: #fff5e1;
+  background: rgba(139, 90, 43, 0.85); /* marrom sela com transparência */
+  color: #fff8dc;
   text-align: center;
   padding: 60px 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-bottom: 3px solid #deb887;
 }
 
 header h1 {
   font-size: 3em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.event-dates {
+  background-color: rgba(222, 184, 135, 0.9);
+  color: #3b2f2f;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: rgba(255, 250, 240, 0.95); /* fundo com leve transparência */
+  border-radius: 12px;
+  border: 3px solid #d2b48c;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  color: #3b2f2f;
+  text-shadow: none;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  color: #5c4033;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #cd853f;
+  padding-bottom: 5px;
+}
+
+.attractions {
+  background-color: rgba(255, 248, 220, 0.9);
+  padding: 20px;
+  border-left: 6px solid #d2691e;
+  border-radius: 10px;
+}
+
+.attractions h3 {
+  font-size: 1.4em;
+  color: #8b0000;
+  margin-bottom: 10px;
+}
+
+.attractions ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.attractions li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.info {
+  background-color: rgba(245, 245, 220, 0.95);
+  border-left: 5px solid #8b5a2b;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1em;
+}
+
+.button {
+  display: inline-block;
+  background-color: #8b5a2b;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+.button:hover {
+  background-color: #a0522d;
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: rgba(59, 47, 47, 0.8);
+  color: #f5f5dc;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #ffe4b5;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
 
