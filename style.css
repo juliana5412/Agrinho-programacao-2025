@@ -1,4 +1,9 @@
-/* Definir fontes padrão e resetar margens/paddings */
+ box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: #f/* Reset de margens e paddings padrão */
 * {
     margin: 0;
     padding: 0;
@@ -6,33 +11,35 @@
     font-family: Arial, sans-serif;
 }
 
-/* Estilo do corpo da página */
 body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #2d6a4f;
+    background-color: #8b0000; /* tom vermelho escuro estilo festa campeira */
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    background-image: url('banner-festa.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 header p {
     font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* Estilo do menu de navegação */
 nav {
-    background-color: #1b4332;
+    background-color: #5c2e00;
     text-align: center;
 }
 
@@ -49,4 +56,57 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    fo
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #5c2e00;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+ff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
