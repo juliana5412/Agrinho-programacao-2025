@@ -1,7 +1,12 @@
-/* style.css - Convite com fundo do cavalo */
-
-* {
-  margin: 0;
+body {
+  font-family: 'Merriweather', serif;
+  background: url('fundo-cavalo.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff8dc;
+  text-shadow: 1px 1px 4px #000;
+  line-height: 1.6;
+}
+margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
