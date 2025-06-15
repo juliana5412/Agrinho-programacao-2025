@@ -1,4 +1,4 @@
-/* style.css - Expo Reserva 2025 - Página principal colorida */
+/* style.css - Expo Reserva 2025 com tema de cavalo e pista de laço */
 
 * {
   margin: 0;
@@ -7,127 +7,21 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #f0f9ff, #e0ffe0);
-  color: #222;
+  font-family: 'Merriweather', serif;
+  background: linear-gradient(to bottom, #fdf5e6, #f4e4c1); /* areia/pó de pista */
+  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* textura de madeira rústica (pista/laço) */
+  color: #3b2f2f;
   line-height: 1.6;
 }
 
 header {
-  background: linear-gradient(90deg, #2e8b57, #006400);
-  color: #fff;
+  background: linear-gradient(90deg, #8b5a2b, #a0522d); /* marrom e sela de cavalo */
+  color: #fff5e1;
   text-align: center;
-  padding: 50px 20px;
+  padding: 60px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 header h1 {
   font-size: 3em;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-
-header p {
-  font-size: 1.3em;
-  font-weight: 300;
-}
-
-.event-dates {
-  background-color: #ffe600;
-  color: #000;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-main {
-  max-width: 1000px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-section h2 {
-  font-size: 1.8em;
-  color: #006400;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #2e8b57;
-  padding-bottom: 5px;
-}
-
-.attractions {
-  background-color: #fefbe9;
-  padding: 20px;
-  border-left: 6px solid #ffa500;
-  border-radius: 10px;
-}
-
-.attractions h3 {
-  font-size: 1.4em;
-  color: #b22222;
-  margin-bottom: 10px;
-}
-
-.attractions ul {
-  list-style: square;
-  padding-left: 20px;
-}
-
-.attractions li {
-  margin-bottom: 8px;
-  font-weight: 500;
-}
-
-.info {
-  background-color: #e8f5e9;
-  border-left: 5px solid #2e8b57;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 1.1em;
-}
-
-.info p {
-  margin-bottom: 10px;
-}
-
-.button {
-  display: inline-block;
-  background-color: #2e8b57;
-  color: #fff;
-  padding: 12px 25px;
-  font-size: 1.1em;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: 0.3s ease;
-  margin-top: 20px;
-}
-
-.button:hover {
-  background-color: #228b22;
-  transform: scale(1.05);
-}
-
-.footer {
-  background-color: #222;
-  color: #ddd;
-  text-align: center;
-  padding: 25px 20px;
-  margin-top: 50px;
-}
-
-.footer a {
-  color: #90ee90;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
 
