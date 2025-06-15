@@ -1,75 +1,71 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('fundo-cavalo.jpeg.jpeg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.fundo {
+  background: url("fundo-cavalo.jpeg.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cabecalho {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 30px 15px 20px;
+  margin-top: 30px;
 }
 
 .cabecalho h1 {
-    font-size: 2.5em;
-    margin: 0;
+  font-size: 2.5em;
+  margin: 0;
 }
 
 .destaque {
-    font-family: cursive;
-    font-weight: bold;
-    color: #ffd700;
+  color: #ffd700;
+  font-style: italic;
 }
 
 .cabecalho h2 {
-    font-size: 2em;
-    margin: 10px 0;
+  margin: 10px 0;
+  font-size: 2em;
 }
 
 .cabecalho p {
-    font-size: 1.1em;
-    margin-top: 10px;
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.conteudo {
-    margin-top: 30px;
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
 }
 
 .botao {
-    display: block;
-    background-color: #ffc107;
-    color: #000;
-    padding: 15px;
-    margin: 15px auto;
-    width: 80%;
-    max-width: 300px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: background 0.3s;
+  background-color: #ffd700;
+  color: #333;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
 .botao:hover {
-    background-color: #ff9800;
-}
-
-.secao {
-    background: rgba(0, 0, 0, 0.7);
-    margin: 40px 20px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #e6c200;
 }
 
 .rodape {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  font-size: 0.9em;
 }
 
-.rodape a {
-    color: #00ffcc;
-    text-decoration: none;
-}
