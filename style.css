@@ -1,71 +1,62 @@
-body, html {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  background: #faf3e0;
+  color: #333;
+}
+
+header {
+  background: #5a3e1b;
   color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.fundo {
-  background: url("fundo-cavalo.jpeg.jpeg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+nav {
+  background: #b58e4a;
+  text-align: center;
 }
 
-.cabecalho {
-  margin-top: 30px;
-}
-
-.cabecalho h1 {
-  font-size: 2.5em;
+nav ul {
+  list-style: none;
   margin: 0;
+  padding: 10px;
 }
 
-.destaque {
-  color: #ffd700;
-  font-style: italic;
+nav li {
+  display: inline;
+  margin: 0 15px;
 }
 
-.cabecalho h2 {
-  margin: 10px 0;
-  font-size: 2em;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.cabecalho p {
-  font-size: 1.2em;
-  max-width: 600px;
-  margin: 0 auto;
+section {
+  padding: 20px;
 }
 
-.botoes {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-bottom: 40px;
+h2 {
+  color: #5a3e1b;
 }
 
 .botao {
-  background-color: #ffd700;
-  color: #333;
-  padding: 15px;
+  background: #5a3e1b;
+  color: white;
+  padding: 10px 20px;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 10px;
-  transition: 0.3s;
+  border-radius: 5px;
 }
 
 .botao:hover {
-  background-color: #e6c200;
+  background: #7a5428;
 }
 
-.rodape {
-  background: rgba(0, 0, 0, 0.6);
+footer {
+  background: #ccc;
+  text-align: center;
   padding: 10px;
   font-size: 0.9em;
 }
-
